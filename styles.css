@@ -1,0 +1,40 @@
+#toolLabel{
+    position: absolute;
+    left: 45px;
+    top: 1425px;
+    z-index: +1;  
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+#works2img{
+    position: absolute;
+    left: 680px;
+}
+#works2contents{
+    position: absolute;
+    left: 425px;
+}
+#works2{
+    height: 280px;
+}
+@media screen and (max-width: 600px){
+    #toolLabel{
+        position: absolute;
+        left: 45px;
+        top: 3590px;
+        z-index: +1;    
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #works2img{
+        position: relative;
+        left: initial;
+    }
+    #works2contents{
+        position: relative;
+        left:initial
+    }
+    #works2{
+        height: initial;
+    }
+}
